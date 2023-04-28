@@ -7,7 +7,6 @@ import java.util.Scanner
 fun main() {
 
     // KOTLIN PROGRAM THAT PRINTS AN INTEGER INPUT BY THE USER
-
     // reader instance that takes input from the standard input keyboard
     val reader = Scanner(System.`in`)
     println("Enter a number: ")
@@ -16,5 +15,11 @@ fun main() {
     println("You entered: $integer")
 
 
+
+    // KOTLIN PROGRAM TO ADD TWO INTEGERS
+    val a: Int = 20
+    val b: Int = 30
+    val add: Int = a + b
+    println("The sum is: $add")
 
 }
