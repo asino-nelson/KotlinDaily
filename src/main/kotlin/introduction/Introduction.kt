@@ -22,4 +22,11 @@ fun main() {
     val add: Int = a + b
     println("The sum is: $add")
 
+
+    // KOTLIN PROGRAM TO MULTIPLY TWO FLOAT NUMBERS
+    val x: Float = 7.3f
+    val y: Float = 2.7f
+    val multiply: Float = x * y
+    println("The product is: $multiply")
+
 }
