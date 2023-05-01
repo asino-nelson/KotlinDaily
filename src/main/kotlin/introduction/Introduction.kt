@@ -29,4 +29,9 @@ fun main() {
     val multiply: Float = x * y
     println("The product is: $multiply")
 
+    // KOTLIN PROGRAM TO OUTPUT THE ASCII VALUE OF A CHARACTER
+    val w = 'h'
+    val ascii = w.toInt()
+    println("ASCII value of $w is: $ascii")
+
 }
