@@ -60,4 +60,19 @@ fun main() {
 
 
 
+
+    // KOTLIN PROGRAM TO CHECK WHETHER A NUMBER IS EVEN OR ODD
+    val reader2 = Scanner(System.`in`)
+    println("Enter a number: ")
+
+    val integer2 = reader.nextInt()
+
+    if (integer2 % 2 == 0) {
+        println("The number $integer2 is even")
+    } else {
+        println("The number $integer2 is odd")
+    }
+
+
+
 }
