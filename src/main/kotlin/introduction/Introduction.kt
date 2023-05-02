@@ -16,11 +16,14 @@ fun main() {
 
 
 
+
     // KOTLIN PROGRAM TO ADD TWO INTEGERS
     val a: Int = 20
     val b: Int = 30
     val add: Int = a + b
     println("The sum is: $add")
+
+
 
 
     // KOTLIN PROGRAM TO MULTIPLY TWO FLOAT NUMBERS
@@ -29,9 +32,32 @@ fun main() {
     val multiply: Float = x * y
     println("The product is: $multiply")
 
+
+
+
     // KOTLIN PROGRAM TO OUTPUT THE ASCII VALUE OF A CHARACTER
     val w = 'h'
     val ascii = w.toInt()
     println("ASCII value of $w is: $ascii")
+
+
+
+
+    // KOTLIN PROGRAM TO SWAP TWO NUMBERS
+    var firstNumber = 10
+    var secondNumber = 16
+    println("--BEFORE SWAP--")
+    println("First number is: $firstNumber")
+    println("Second number is: $secondNumber")
+
+    // To swap the numbers we introduce a third variable
+    val holdNumber = firstNumber
+    firstNumber = secondNumber
+    secondNumber = holdNumber
+    println("--AFTER SWAP--")
+    println("First number is: $firstNumber")
+    println("Second number is: $secondNumber")
+
+
 
 }
