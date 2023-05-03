@@ -33,4 +33,19 @@ fun main() {
 
 
 
+    // KOTLIN PROGRAM TO CHECK WHETHER A NUMBER IS POSITIVE OR NEGATIVE
+
+    val input = 9
+
+    if (input > 0) {
+        println("$input is positive")
+    } else if (input < 0) {
+        println("$input is negative")
+    }else{
+        println("The number is 0")
+    }
+
+
+
+
 }
