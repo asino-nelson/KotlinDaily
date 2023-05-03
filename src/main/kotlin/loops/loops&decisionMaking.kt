@@ -48,4 +48,15 @@ fun main() {
 
 
 
+    // KOTLIN PROGRAM TO FIND THE SUM OF POSITIVE NUMBERS
+    val number = 100
+    var sum = 0
+    for (num in 0..100){
+        sum += num
+    }
+    println(sum)
+
+
+
+
 }
