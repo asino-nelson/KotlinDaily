@@ -14,4 +14,23 @@ fun main() {
         println("The year $year is not a leap year")
     }
 
+
+
+
+    // KOTLIN PROGRAM TO FIND THE LARGEST OF THREE NUMBERS
+    val firstNumber = 20
+    val secondNumber = 10
+    val thirdNumber = 30
+
+    if ((firstNumber > secondNumber) && (firstNumber > thirdNumber)){
+        println("$firstNumber is the largest")
+    }else if ((secondNumber > firstNumber) && (secondNumber > thirdNumber)){
+        println("$secondNumber is the largest")
+    }else{
+        println("$thirdNumber is the largest")
+    }
+
+
+
+
 }
