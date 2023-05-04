@@ -59,6 +59,7 @@ fun main() {
 
 
 
+
     // KOTLIN PROGRAM TO GENERATE MULTIPLICATION TABLE
     println("----*----")
     val numbers = listOf(1,2,3,4,5)
@@ -69,6 +70,23 @@ fun main() {
         }
         println("----*----")
     }
+
+
+
+
+
+    // KOTLIN PROGRAM TO GENERATE THE FACTORIAL OF A NUMBER
+    val long: Unit = println(Long.MAX_VALUE)
+    val scanner = Scanner(System.`in`)
+    print("Enter a number to generate its factorial: ")
+    val inputNum = scanner.nextInt()
+
+    var factorial:Long = 1
+    for (i in 1..inputNum) {
+        factorial *= i
+    }
+    println("$inputNum ! is $factorial")
+
 
 
 
