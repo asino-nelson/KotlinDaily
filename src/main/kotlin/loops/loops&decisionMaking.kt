@@ -75,6 +75,22 @@ fun main() {
 
 
 
+    // KOTLIN PROGRAM TO GENERATE THE GCD OF TWO NUMBERS
+    val keyIn = Scanner(System.`in`)
+    val numOne = keyIn.nextInt()
+    print("Enter first number: ")
+    val numTwo = keyIn.nextInt()
+    print("Enter second number: ")
+
+    val gcd = 1
+    if ((gcd < numOne && gcd < numTwo) && (numOne % gcd == 0 && numTwo % gcd == 0 )){
+
+    }
+
+
+
+
+
     // KOTLIN PROGRAM TO GENERATE THE FACTORIAL OF A NUMBER
     val long: Unit = println(Long.MAX_VALUE)
     val scanner = Scanner(System.`in`)
