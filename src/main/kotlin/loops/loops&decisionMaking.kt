@@ -59,4 +59,26 @@ fun main() {
 
 
 
+    // KOTLIN PROGRAM TO GENERATE MULTIPLICATION TABLE
+    println("----*----")
+    val numbers = listOf(1,2,3,4,5)
+    val product = numbers.forEach {
+        for (i in 1..5){
+            val multiply = it*i
+            println( "$it * $i = $multiply")
+        }
+        println("----*----")
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
