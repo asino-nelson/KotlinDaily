@@ -76,16 +76,19 @@ fun main() {
 
 
     // KOTLIN PROGRAM TO GENERATE THE GCD OF TWO NUMBERS
-    val keyIn = Scanner(System.`in`)
-    val numOne = keyIn.nextInt()
-    print("Enter first number: ")
-    val numTwo = keyIn.nextInt()
-    print("Enter second number: ")
+    val numOne = 30
+    val numTwo = 54
 
-    val gcd = 1
-    if ((gcd < numOne && gcd < numTwo) && (numOne % gcd == 0 && numTwo % gcd == 0 )){
+    var gcd = 1
+    var id = 1
 
+    while ((id <= numOne) && (id <= numTwo)){
+        if ((numOne % id == 0 && numTwo % id == 0 )){
+            gcd = id
+            ++id
+        }
     }
+    println("G.C.D of $numOne and $numTwo is: $gcd")
 
 
 
@@ -107,6 +110,18 @@ fun main() {
 
 
 
+    // KOTLIN PROGRAM TO REVERSE A NUMBER
+    var initNum = 12345
+    var reversedNum = 0
+
+    while (initNum != 0){
+        val digit = initNum % 10
+        reversedNum = reversedNum * 10 + digit
+        initNum /= 10
+    }
+
+    println("Initial number : $initNum")
+    println("Reversed number : $reversedNum")
 
 
 
